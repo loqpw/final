@@ -1,3 +1,9 @@
+<html>
+    <head><title>this shiz</title></head>
+    <body>
+        
+    </body>
+</html>
 <?php
 $v = 'mal';
 var_dump($v);
@@ -33,4 +39,10 @@ echo ($trr.=$asd);
 echo "<br>";
 $we="ffe";
 echo ($asd.$we);
+define("t","this is a constant");
+echo ("<br>".t);
+function test2(){
+    echo "<br>".t;
+}
+test2();
 ?>
