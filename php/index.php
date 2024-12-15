@@ -1,9 +1,8 @@
-<html>
-    <head><title>this shiz</title></head>
-    <body>
-        
-    </body>
-</html>
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="../css/style.css">
+  <title>he did not want to be scary</title>
+</head>
 <?php
 $v = 'mal';
 var_dump($v);
