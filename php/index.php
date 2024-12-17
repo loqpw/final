@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
   <link rel="stylesheet" href="../css/style.css">
-  <title>he did not want to be scary</title>
+  <!title>he did not want to be scary<!/title>
 </head>
 <?php
 $v = 'mal';
@@ -44,4 +44,28 @@ function test2(){
     echo "<br>".t;
 }
 test2();
+echo'<title>he did not want to be scary</title>';
+echo "<br>";
+echo '<table>
+          <tr>
+            <th></th>
+            <td><b>col2</b></td>
+            <th>col2</th>
+        </tr>';
+echo '</table>';
+echo '<table width = "9" cellpadding = "8" cellspacing = "1" border="1">';
+            echo "<tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Options</th>
+                  </tr>";
+                  echo "<tr>
+                  <td>John</td>
+                  <td>Doe</td>";
 ?>
+<!DOCTYPE html>
+<html>
+<body> <a href="../html/index.html"> go to html</a>  
+</body>
+</html>
