@@ -2,10 +2,13 @@ body {
     background: url(../images/background.jpg);
     background-repeat:no-repeat;
     background-size: cover;
-    font-size: 1.825rem;
     color: white;
     width: 1024px;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
-}  
+}
+p {
+    background-color: aqua;
+    color: red;
+}

@@ -3,6 +3,7 @@
 <head>
     <title> this is a title</title>
     <link rel="stylesheet" href="../css/style.css">
+    <meta http-equiv="pragma" content="no-cache">
 </head>
 <body>
     <p><abbr title="this is an abbreviation">abbr</abbr></p>
@@ -22,7 +23,7 @@
             <td><b>col2</b></td>
             <th>col2</th>
         <tr>
-            <th>qwe</th>
+            <th>&lt</th>
             <td colspan="4" rowspan="2">1</td>
             <td>2</td>
         </tr>
@@ -34,15 +35,64 @@
     </table>
     <form action="">
         <p>
-           how old is skywalker ?
+           <span class="cool">how old is skywalker ?</span>
            <br>
-           <input type="radio" name="age" value="19" checked = "checked" /> 19
+           <input type="radio" name="age" value="19" checked = "checked" class="cool" /> 19
            <input type="radio" name="age" value="20"> 20
            <input type="radio" name="age" value="21">21
            <input type="checkbox" name="kl" value="hala">wazzap
         </p>
-
     </form>
+    <form action="">
+        <p>
+            what is your biggest fear ?
+            <br>
+            <select name="fear">
+                <option value="bugs">bugs/insects</option>
+                <option value="snakes">snakes</option>
+                <option value="DPW" selected>WOPDO</option>
+            </select>
+        </p>
+    </form>
+    <form action="">
+        <select name="fear" size="3" multiple>
+            <option value="bugs">bugs/insects</option>
+                <option value="snakes">snakes</option>
+                <option value="DPW" selected>WOPDO</option>
+        </select>
+        <input type="radio" name="soqwe" value="asdasd">qpqpqp
+        <input type="submit" name="asd" value="asd">
+        <input type="image" src="../images/button-isolated-transparent-background_191095-11113.avif" width="100" height="100">
+    </form>
+    <form action="" method="post">
+        <p class="cool">upload hentai? <br>
+            <input type="file"> 
+            <input type="submit" value="upload file">
+            </p>
+    </form>
+    <form action="">
+        <textarea name="message" cols="20" rows="5"> leave your feedback here</textarea>
+    </form>
+    <form action="" id="login">
+        <p class="cool"><fieldset><legend>login</legend>
+            username: <input type="text" name="username" size="16" maxlength="30">
+        <br>
+        password: <input type="password" name="password" size="16" maxlength="30" required="required" placeholder="enter your password">
+        <br>
+        <button type="submit" name="submit login">login</button>
+    </fieldset>
+        </p>
+    </form>
+    <form action="">
+        <p>email:
+    <input type="email" name="email"><br>
+    url:
+    <input type="url" name="favweb"><br>
+    <button type="submit">submit</button>
+</p>   
+    </form>
+    <iframe src="https://www.youtube.com/watch?v=9IpeP8DLrI8&t=6568s" height="200" width="300"></iframe>
+    <p>test</p>
 </body>
 
 
