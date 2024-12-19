@@ -1,14 +1,25 @@
 body {
-    background: url(../images/background.jpg);
+    background: linear-gradient(yellow, red);
     background-repeat:no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     color: white;
     width: 1024px;
     min-height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
-p {
-    background-color: aqua;
+.cool {
     color: red;
+    border-left-style: dashed;
+    border-top-style: dotted;
+}
+p {
+    font-size: 18px;
+    font-family: "consolas";
+    border-style:groove;
+    border-width:5px;
+    border-color: blueviolet;
+    border-radius: 10px;
+    padding: 5px;
 }
