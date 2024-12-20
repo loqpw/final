@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(yellow, red); 
-    /*background-attachment: fixed;*/
+    background: linear-gradient(green, yellowgreen); 
+    background-attachment: fixed;
     color: white;
     width: 1024px;
     min-height: 300px;
@@ -71,4 +71,12 @@ iframe {
     top: 100px;
     left:100px;
     opacity:0.3;
+}
+#bombaclat{
+    border-color: blue !important;
+    border: 2px solid;
+    font-size: 50px;
+   height: 400px;
+   width: 800px;
+   border-radius: 10px;
 }

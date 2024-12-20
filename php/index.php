@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/s2.css">
   <!title>he did not want to be scary<!/title>
 </head>
 <?php
@@ -63,9 +63,10 @@ echo '<table width = "9" cellpadding = "8" cellspacing = "1" border="1">';
                   echo "<tr>
                   <td>John</td>
                   <td>Doe</td>";
+echo '<a href="../html/index.html"> go to html</a>';
+function tEEst(){
+static $a=9;
+}
+teest();
+echo $a;
 ?>
-<!DOCTYPE html>
-<html>
-<body> <a href="../html/index.html"> go to html</a>  
-</body>
-</html>
